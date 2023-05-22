@@ -5,7 +5,7 @@ import { store, persistor, sagaMiddleware } from "./Redux/Store";
 
 import App from "./App";
 import { PersistGate } from "redux-persist/integration/react";
-import watchSagas from "./Redux/Sagas";
+import watchSagas from "./Redux/Store/Sagas/index";
 
 sagaMiddleware.run(watchSagas);
 

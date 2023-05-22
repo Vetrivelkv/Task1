@@ -1,12 +1,17 @@
 import React from "react";
+import Registration from "../components/Registration/Registration";
 
 /**
  * @author Vetrivel Kumaravel
  * @function LandingPage
  **/
 
-const LandingPage = (props) => {
-  return <div>LandingPage</div>;
+const LandingPage = () => {
+  return (
+    <div style={{ padding: "25px" }}>
+      <Registration />
+    </div>
+  );
 };
 
 export default LandingPage;
